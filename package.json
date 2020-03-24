@@ -1,10 +1,10 @@
 {
-  "name": "mcfunction",
-  "version": "0.6.4",
-  "description": "Minecraft function language. Has syntax highlighting and snippets",
+  "name": "mcfunction-novum",
+  "version": "0.1.0",
+  "description": "[1.15.2] Minecraft function language. Has syntax highlighting and autocomplete",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MrYurihi/mcfunction.git"
+    "url": "https://github.com/jan00bl/mcfunction-novum"
   },
   "main": "./lib/main",
   "license": "MIT",

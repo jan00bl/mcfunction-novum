@@ -1,8 +1,4 @@
-# mcfunction package
+## [1.15.2] mcfunction language support for atom
 
-## This project is not going to be updated for a while until the language server by Levertion and I is complete
-
-A syntax highlighter and snippet package for Minecraft's function files
-![image not loading](https://mryurihi.github.io/atom-mcfunction-image.png)
-
-It also has a *very* competent autocomplete+ provider that is almost identical to Minecraft's native tab completions, so you will feel right at home
+# Info
+This is a fork of https://github.com/Yurihaia/mcfunction. I have not created the base of this package, all the credits for that goes to Yurihaia, but I know how to edit the package to support the newest commands and items. My goal is to keep the package up to date with the latest snapshots, because there is no currently supported version of this package
