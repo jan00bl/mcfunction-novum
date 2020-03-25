@@ -717,7 +717,7 @@
 			"name": "function",
 			"cycleMarkers": [
 				{
-					"type": "function",
+					"type": "string",
 					"value": "name"
 				}
 			]
@@ -780,15 +780,6 @@
 						"spectatorsGenerateChunks"
 					],
 					"change": {
-						"gameLoopFunction": [
-							{
-								"type": "function",
-								"value": "value"
-							},
-							{
-								"type": "end"
-							}
-						],
 						"maxCommandChainLength": [
 							{
 								"type": "string",

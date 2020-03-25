@@ -1,0 +1,29 @@
+{
+	"selector": [
+    "@a",
+    "@e",
+    "@p",
+    "@r",
+    "@s"
+	],
+	"test": [
+		"limit",
+    "sort",
+    "level",
+    "gamemode",
+    "name",
+    "x_rotation",
+    "y_rotation",
+    "type",
+    "nbt",
+    "advancements",
+    "predicate",
+    "x",
+    "y",
+    "z",
+    "distance",
+    "dx",
+    "dy",
+    "dz"
+	]
+}
