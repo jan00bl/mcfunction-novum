@@ -24,6 +24,7 @@
     "distance",
     "dx",
     "dy",
-    "dz"
+    "dz",
+		"scores"
 	]
 }
