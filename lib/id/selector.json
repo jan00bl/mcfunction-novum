@@ -25,6 +25,7 @@
     "dx",
     "dy",
     "dz",
-		"scores"
+		"scores",
+		"tag"
 	]
 }

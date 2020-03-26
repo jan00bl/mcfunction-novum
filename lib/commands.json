@@ -1005,25 +1005,25 @@
 					"type": "particle",
 					"value": "particle",
 					"change": {
-						"falling_dust": [
+						"minecraft:falling_dust": [
 							{
 								"type": "block",
 								"value": "block"
 							}
 						],
-						"block": [
+						"minecraft:block": [
 							{
 								"type": "block",
 								"value": "block"
 							}
 						],
-						"item": [
+						"minecraft:item": [
 							{
 								"type": "item",
 								"value": "item"
 							}
 						],
-						"dust": [
+						"minecraft:dust": [
 							{
 								"type": "coord",
 								"value": "R G B"
