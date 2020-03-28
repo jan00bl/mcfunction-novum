@@ -1710,26 +1710,8 @@
 									],
 									"color": [
 										{
-											"type": "option",
-											"value": [
-												"aqua",
-												"black",
-												"blue",
-												"dark_blue",
-												"dark_green",
-												"dark_aqua",
-												"dark_red",
-												"dark_purple",
-												"dark_gray",
-												"gold",
-												"gray",
-												"green",
-												"red",
-												"reset",
-												"light_purple",
-												"yellow",
-												"white"
-											]
+											"type": "color",
+											"value": "color"
 										},
 										{
 											"type": "end"
