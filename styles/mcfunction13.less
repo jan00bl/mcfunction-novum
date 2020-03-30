@@ -8,8 +8,23 @@
 }
 
 .syntax--comment {
-	color: #7c7c7c;
-	font-style: italic;
+	color: @text-color-subtle;
+}
+
+.syntax--number {
+	color: @syntax-color-class;
+}
+
+.syntax--error{
+	color: @text-color-error;
+}
+
+.syntax--operation{
+	color: @ui-site-color-5;
+}
+
+.syntax--execute{
+	color: fadeout(@syntax-color-keyword, 30%);
 }
 
 @import "ui-variables";
@@ -72,7 +87,6 @@
 	}
 
 	.syntax--coord {
-		.syntax--comment;
-		font-style: normal;
+		color: @syntax-color-constant;
 	}
 }

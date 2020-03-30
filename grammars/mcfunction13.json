@@ -22,26 +22,11 @@
 					}
 				},
 				{
-					"begin": "(?<==)",
-					"end": "(?=,|\\])",
-					"name": "value",
-					"patterns": [
-						{
-							"begin": "\"",
-							"end": "\"",
-							"patterns": [
-								{
-									"match": "\\\\(?:[\"\\\\/bfnrt])|(?:u[0-9a-fA-F]{4})"
-								}
-							]
-						},
-						{
-							"match": "[\\w_]"
-						},
-						{
-							"include": "#nbt-compound"
-						}
-					]
+					"match": "(?<==)[\\w_!\\.]+(?=,|\\])",
+					"name": "value"
+				},
+				{
+					"include": "#nbt-compound"
 				}
 			]
 		},
@@ -50,7 +35,18 @@
 			"name": "selector"
 		},
 		{
+			"match": "(?<= )[<>=%+-\\/\\*]+(?= )",
+			"name": "operation"
+		},
+		{
+			"match": "(?<= )(align|anchored|as|at|facing|if|in|positioned|rotated|store|unless|run)(?= )",
+			"name": "execute"
+		},
+		{
 			"include": "#nbt-compound"
+		},
+		{
+			"include": "#nbt-array"
 		},
 		{
 			"match": "(?:^|(?<=run ))(?:advancement|bossbar|clear|clone|data|datapack|defaultgamemode|difficulty|effect|enchant|execute|experience|fill|function|gamemode|gamerule|give|kill|locate|locatebiome|loot|me|msg|particle|playsound|recipe|reload|replaceitem|say|schedule|scoreboard|tag|team|seed|setblock|setworldspawn|spreadplayers|stopsound|summon|teleport|tellraw|tell|time|title|tp|trigger|w|weather|worldborder|xp|spawnpoint|spectate)\\b",
@@ -65,11 +61,11 @@
 			"name": "coord"
 		},
 		{
-			"match": "^/",
-			"name": "error.fslash"
+			"match": "^\\/.+",
+			"name": "error"
 		},
 		{
-			"match": "\\[(?:(?:(\\w+)=(\\w+)),)*(?:(\\w+)=(\\w+))\\]",
+			"match": "\\[(?:(?:(\\w+)=?(\\S+)),)*(?:(\\w+)=?(\\S+))\\]",
 			"name": "state",
 			"captures": {
 				"1": {
@@ -87,7 +83,8 @@
 			}
 		},
 		{
-			"include": "source.json"
+			"match": "\\d+(?=[bfsdl])[bfsdl]|(?<=\\W)(\\d+)(?=\\W)",
+			"name": "number"
 		}
 	],
 	"repository": {
@@ -108,6 +105,10 @@
 			"patterns": [
 				{
 					"include": "#nbt-key-quoted"
+				},
+				{
+					"match": "\\d+(?=[bfsdl])[bfsdl]|(?<=\\W)(\\d+)(?=\\W)",
+					"name": "value"
 				},
 				{
 					"include": "#nbt-key-unquoted"
@@ -165,7 +166,7 @@
 		},
 		"nbt-number": {
 			"match": "-?\\d+(?:\\.\\d+)?[bfdl]?",
-			"name": "value.number.nbt"
+			"name": "value"
 		}
 	}
 }
