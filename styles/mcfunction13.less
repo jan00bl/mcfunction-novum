@@ -24,7 +24,10 @@
 }
 
 .syntax--execute{
-	color: fadeout(@syntax-color-keyword, 30%);
+	color: lighten(@syntax-color-keyword, 15%, relative);
+}
+.syntax--deactivated{
+	color: average(@base-background-color,@syntax-color-keyword);
 }
 
 @import "ui-variables";
