@@ -39,6 +39,10 @@
 			"name": "operation"
 		},
 		{
+			"match": "(?<= )\\\".+\\\"",
+			"name": "string"
+		},
+		{
 			"match": "(?<= )(align|anchored|as|at|facing|if|in|positioned|rotated|store|unless|run)(?= )",
 			"name": "execute"
 		},
@@ -97,6 +101,10 @@
 			"end": "\\]",
 			"name": "array.nbt",
 			"patterns": [
+				{
+					"match": "(?<=\\[)\\d+(?=\\])",
+					"name": "number"
+				},
 				{
 					"include": "#nbt-value"
 				},
