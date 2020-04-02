@@ -73,24 +73,6 @@
 			"name": "error"
 		},
 		{
-			"match": "\\[(?:(?:(\\w+)=?(\\S+)),)*(?:(\\w+)=?(\\S+))\\]",
-			"name": "state",
-			"captures": {
-				"1": {
-					"name": "name"
-				},
-				"3": {
-					"name": "name"
-				},
-				"2": {
-					"name": "value"
-				},
-				"4": {
-					"name": "value"
-				}
-			}
-		},
-		{
 			"match": "\\d+(?=[bfsdl])[bfsdl]|(?<=\\W)(\\d+)(?=\\W)",
 			"name": "number"
 		}

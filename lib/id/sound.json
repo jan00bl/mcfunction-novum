@@ -943,5 +943,11 @@
 "minecraft:block.lodestone.fall",
 "minecraft:block.lodestone.hit",
 "minecraft:block.lodestone.place",
-"minecraft:block.lodestone.step"
+"minecraft:block.lodestone.step",
+"minecraft:entity.zoglin.ambient",
+"minecraft:entity.zoglin.angry",
+"minecraft:entity.zoglin.attack",
+"minecraft:entity.zoglin.death",
+"minecraft:entity.zoglin.hurt",
+"minecraft:entity.zoglin.step"
 ]
