@@ -153,6 +153,10 @@
 				},
 				{
 					"include": "#nbt-array"
+				},
+				{
+					"match": "true|false",
+					"name": "value"
 				}
 			]
 		},
