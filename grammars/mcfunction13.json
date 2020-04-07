@@ -73,7 +73,7 @@
 			"name": "error"
 		},
 		{
-			"match": "\\d+(?=[bfsdl])[bfsdl]|(?<=\\W)(\\d+)(?=\\W)",
+			"match": "\\d+(?=[bfsdl])[bfsdl]|(?<=\\W)([~\\-^]*\\d+|[~|^])(?=\\W)",
 			"name": "number"
 		}
 	],
