@@ -8,8 +8,26 @@
 }
 
 .syntax--comment {
-	color: #7c7c7c;
-	font-style: italic;
+	color: @text-color-subtle;
+}
+
+.syntax--number {
+	color: @syntax-color-class;
+}
+
+.syntax--error{
+	color: @text-color-error;
+}
+
+.syntax--operation{
+	color: @ui-site-color-5;
+}
+
+.syntax--execute{
+	color: lighten(@syntax-color-keyword, 15%, relative);
+}
+.syntax--deactivated{
+	color: average(@base-background-color,@syntax-color-keyword);
 }
 
 @import "ui-variables";
@@ -20,6 +38,12 @@
 		color: @syntax-color-keyword;
 		background: fadeout(@syntax-color-keyword, 80%);
 	}
+	&.recipe {
+		background: fadeout(#0c9b43, 80%);
+	}
+	&.enchantment {
+		background: fadeout(#75056d, 50%);
+	}
 }
 
 .syntax--source.syntax--mcfunction {
@@ -29,6 +53,17 @@
 	}
 
 	.syntax--argument {
+
+		.syntax--name {
+			color: @syntax-color-tag;
+		}
+
+		.syntax--value {
+			.syntax--string;
+		}
+	}
+
+	.syntax--state {
 
 		.syntax--name {
 			color: @syntax-color-tag;
@@ -55,7 +90,6 @@
 	}
 
 	.syntax--coord {
-		.syntax--comment;
-		font-style: normal;
+		color: @syntax-color-constant;
 	}
 }
