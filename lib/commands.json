@@ -190,7 +190,7 @@
 					"value": "targets"
 				},
 				{
-					"type": "item",
+					"type": "item-with-tag",
 					"value": "item"
 				},
 				{
@@ -2183,7 +2183,7 @@
 						"value": "x y z"
 					},
 					{
-						"type": "block",
+						"type": "block-with-tag",
 						"value": "block"
 					}
 				],

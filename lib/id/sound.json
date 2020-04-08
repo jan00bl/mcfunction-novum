@@ -1,4 +1,7 @@
 [
+"minecraft:ambient.basalt_deltas.additions",
+"minecraft:ambient.basalt_deltas.loop",
+"minecraft:ambient.basalt_deltas.mood",
 "minecraft:ambient.cave",
 "minecraft:ambient.crimson_forest.loop",
 "minecraft:ambient.crimson_forest.additions",
@@ -949,5 +952,10 @@
 "minecraft:entity.zoglin.attack",
 "minecraft:entity.zoglin.death",
 "minecraft:entity.zoglin.hurt",
-"minecraft:entity.zoglin.step"
+"minecraft:entity.zoglin.step",
+"minecraft:music.nether.basalt_deltas",
+"minecraft:music.nether.crimson_forest",
+"minecraft:music.nether.nether_wastes",
+"minecraft:music.nether.soul_sand_valley",
+"minecraft:music.nether.warped_forest"
 ]

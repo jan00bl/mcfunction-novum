@@ -55,7 +55,7 @@
 		},
 		{
 			"name": "type",
-			"type": "entity-id",
+			"type": "entity-with-tag",
 			"value": "entity",
 			"negatable": true
 		},
