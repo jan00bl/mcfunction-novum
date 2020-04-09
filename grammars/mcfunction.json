@@ -22,7 +22,7 @@
 					}
 				},
 				{
-					"match": "(?<==)[\\w_!\\.:]+(?=,|\\])",
+					"match": "(?<==)[\\w_!\\.:#]+(?=,|\\])",
 					"name": "value"
 				},
 				{
@@ -113,10 +113,14 @@
 					"name": "value"
 				},
 				{
+					"match": "(?<==)[^{][\\w_]+",
+					"name": "value"
+				},
+				{
 					"include": "#nbt-key-unquoted"
 				},
 				{
-					"begin": ":[\\t_]*",
+					"begin": "[:=][\\t_]*",
 					"end": "(?=[\\t ]*}|,)",
 					"patterns": [
 						{
@@ -137,7 +141,7 @@
 			"name": "key.nbt"
 		},
 		"nbt-key-unquoted": {
-			"match": "[\\w_]+",
+			"match": "(minecraft:)*[\\w_/#]+",
 			"name": "key"
 		},
 		"nbt-value": {
