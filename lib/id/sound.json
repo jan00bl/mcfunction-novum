@@ -958,5 +958,10 @@
 "minecraft:music.nether.nether_wastes",
 "minecraft:music.nether.soul_sand_valley",
 "minecraft:music.nether.warped_forest",
-"minecraft:music_disc.pigstep"
+"minecraft:music_disc.pigstep",
+"minecraft:block.chain.break",
+"minecraft:block.chain.hit",
+"minecraft:block.chain.fall",
+"minecraft:block.chain.step",
+"minecraft:block.chain.place"
 ]

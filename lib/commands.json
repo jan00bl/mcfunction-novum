@@ -50,6 +50,120 @@
 				}
 			]
 		},
+		"attribute": {
+			"name": "attribute",
+			"cycleMarkers" : [
+				{
+					"type": "entity",
+					"value": "target"
+				},
+				{
+					"type": "attribute",
+					"value": "attribute"
+				},
+				{
+					"type": "option",
+					"value": [
+						"base",
+						"get",
+						"modifier"
+					],
+					"change": {
+						"base": [
+							{
+								"type": "option",
+								"value": [
+									"get",
+									"set"
+								],
+								"change": {
+									"get": [
+										{
+											"type": "string",
+											"value": "scale"
+										}
+									],
+									"set": [
+										{
+											"type": "string",
+											"value": "value"
+										}
+									]
+								}
+							},
+							{
+								"type": "end"
+							}
+						],
+						"get": [
+							{
+								"type": "string",
+								"value": "scale"
+							}
+						],
+						"modifier": [
+							{
+								"type": "option",
+								"value": [
+									"add",
+									"remove",
+									"value"
+								],
+								"change": {
+									"add": [
+										{
+											"type": "string",
+											"value": "UUID"
+										},
+										{
+											"type": "string",
+											"value": "name"
+										},
+										{
+											"type": "string",
+											"value": "value"
+										},
+										{
+											"type": "option",
+											"value": [
+												"add",
+												"multiply",
+												"multiply_base"
+											]
+										}
+									],
+									"value": [
+										{
+											"type": "option",
+											"value": [
+												"get"
+											]
+										},
+										{
+											"type": "string",
+											"value": "UUID"
+										},
+										{
+											"type": "string",
+											"value": "scale"
+										}
+									],
+									"remove": [
+										{
+											"type": "string",
+											"value": "UUID"
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"type": "end"
+				}
+			]
+		},
 		"bossbar": {
 			"name": "bossbar",
 			"cycleMarkers": [
