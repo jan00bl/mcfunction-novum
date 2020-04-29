@@ -7,7 +7,6 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#000000;stroke-width:30;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <path class="st0" d="M-2194.4,395.8c-78.8-166,97.6-289.6,211.9-189.4c101.1,115.3-34.6,248.6-128.2,170
 	c-72.1-63,3.6-170.2,73.7-117.8c51.8,55.5-35.2,91.5-30.3,49.2"/>
@@ -18,22 +17,9 @@
 	<path class="st1" d="M1465.6,740.8c15-16.3,24.1-38,24.1-61.9c0-23.9-9.1-45.6-24.1-61.9"/>
 	<path class="st1" d="M1503.9,769c20.7-24.2,33.2-55.7,33.2-90.1c0-34.4-12.5-65.8-33.2-90.1"/>
 </g>
-<g>
-	<circle class="st1" cx="1189.1" cy="277.2" r="69.1"/>
-	<circle class="st1" cx="1105.9" cy="143.5" r="36.5"/>
-	<circle class="st1" cx="1248.4" cy="143.5" r="17.2"/>
-	<circle class="st1" cx="1327.1" cy="79.5" r="25.7"/>
-	<circle class="st1" cx="1323.4" cy="204.4" r="3.7"/>
-</g>
-<g>
-	<path class="st2" d="M271.7,222.4l49.5-28.6l48.5-28L258.9,54.2c-11.1-11.1-28.3-13.3-41.8-5.2l-73.9,44.3L30.3,160.9l0.1,0.1
-		l48.6,47.7l61.7,60.6c0.4,0.4,0.8,0.7,1.2,1.1c11,9.8,27,11.4,39.8,4l46.7-27"/>
-	<path class="st2" d="M228.4,247.5l-46.7,27c-12.8,7.4-28.9,5.7-39.9-4.1c-0.1,0-0.1-0.1-0.1-0.1c-0.3-0.3-0.7-0.6-1-0.9l-61.7-60.6
-		L30.4,161v76.8l110.2,108.3c11,10.8,27.8,12.9,41.1,5.2l47-27.2"/>
-	<polyline class="st2" points="271.7,299.2 369.8,242.6 369.8,165.8 321.4,193.9 271.7,222.5 	"/>
-	<line class="st1" x1="223.7" y1="98.4" x2="282.3" y2="157.3"/>
-	<line class="st1" x1="204.3" y1="112.3" x2="262.9" y2="171.2"/>
-	<line class="st1" x1="111.6" y1="177.7" x2="153.4" y2="219.7"/>
-</g>
-<polyline class="st1" points="100.2,119.2 228.7,247.7 228.7,378.7 249.8,341.6 271.7,360.2 271.7,221.9 142.2,92.3 "/>
+<circle class="st1" cx="176" cy="282.4" r="69.1"/>
+<circle class="st1" cx="92.7" cy="148.7" r="36.5"/>
+<circle class="st1" cx="235.2" cy="148.7" r="17.2"/>
+<circle class="st1" cx="314" cy="84.7" r="25.7"/>
+<circle class="st1" cx="310.3" cy="209.6" r="3.7"/>
 </svg>
