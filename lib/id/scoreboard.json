@@ -105,6 +105,7 @@
      "minecraft.use_cauldron",
      "minecraft.walk_on_water_one_cm",
      "minecraft.walk_one_cm",
-     "minecraft.walk_under_water_one_cm"
+     "minecraft.walk_under_water_one_cm",
+     "minecraft.strider_one_cm"
    ]
 }

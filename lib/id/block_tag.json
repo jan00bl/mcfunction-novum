@@ -74,5 +74,6 @@
 "#minecraft:wooden_trapdoors",
 "#minecraft:wool",
 "#minecraft:pressure_plates",
-"#minecraft:stone_pressure_plates"
+"#minecraft:stone_pressure_plates",
+"#minecraft:prevent_mob_spawning_inside"
 ]
