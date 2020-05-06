@@ -1,6 +1,6 @@
 {
   "name": "mcfunction-novum",
-  "version": "1.6.2",
+  "version": "1.7.0",
   "description": "[1.16|20w19a] Minecraft function language. Has syntax highlighting and autocomplete. Actively updated, maintained and improved",
   "keywords": [
     "minecraft",
