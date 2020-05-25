@@ -1660,12 +1660,28 @@
 					"type": "option",
 					"value": [
 						"true",
-						"false"
-					]
+						"false",
+						"under"
+					],
+					"change": {
+						"under": [
+							{
+								"type": "string",
+								"value": "maxHeight"
+							},
+							{
+								"type": "option",
+								"value": [
+									"true",
+									"false"
+								]
+							}
+						]
+					}
 				},
 				{
 					"type": "entity",
-					"value": "victims"
+					"value": "targets"
 				}
 			]
 		},

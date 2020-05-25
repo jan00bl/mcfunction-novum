@@ -963,5 +963,6 @@
 "minecraft:block.chain.hit",
 "minecraft:block.chain.fall",
 "minecraft:block.chain.step",
-"minecraft:block.chain.place"
+"minecraft:block.chain.place",
+"minecraft:entity.fox.teleport"
 ]
