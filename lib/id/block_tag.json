@@ -75,5 +75,7 @@
 "#minecraft:wool",
 "#minecraft:pressure_plates",
 "#minecraft:stone_pressure_plates",
-"#minecraft:prevent_mob_spawning_inside"
+"#minecraft:prevent_mob_spawning_inside",
+"#minecraft:fence_gates",
+"#minecraft:unstable_bottom_center"
 ]
