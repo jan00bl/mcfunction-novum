@@ -859,40 +859,8 @@
 			"name": "gamerule",
 			"cycleMarkers": [
 				{
-					"type": "option",
-					"value": [
-						"announceAdvancements",
-						"commandBlockOutput",
-						"disableElytraMovementCheck",
-						"disableRaids",
-						"doDaylightCycle",
-						"doEntityDrops",
-						"doFireTick",
-						"doInsomnia",
-						"doImmediateRespawn",
-						"doLimitedCrafting",
-						"doMobloot",
-						"doMobSpawning",
-						"doPatrolSpawning",
-						"doTileDrops",
-						"doTraderSpawning",
-						"doWeatherCycle",
-						"drowningDamage",
-						"fallDamage",
-						"fireDamage",
-						"keepInventory",
-						"logAdminCommands",
-						"maxCommandChainLength",
-						"maxEntityCramming",
-						"mobGriefing",
-						"naturalRegeneration",
-						"randomTickSpeed",
-						"reducedDebugInfo",
-						"sendCommandFeedback",
-						"showDeathMessages",
-						"spawnRadius",
-						"spectatorsGenerateChunks"
-					],
+					"type": "gamerule",
+					"value": "gamerule",
 					"change": {
 						"maxCommandChainLength": [
 							{
