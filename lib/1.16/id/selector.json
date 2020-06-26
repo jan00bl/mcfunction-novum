@@ -1,0 +1,147 @@
+{
+	"selector": [
+    "@a",
+    "@e",
+    "@p",
+    "@r",
+    "@s"
+	],
+	"test": [
+		{
+			"name": "limit",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "sort",
+			"type": "option",
+			"value": [
+				"arbitrary",
+				"furthest",
+				"nearest",
+				"random"
+			],
+			"negatable": false
+		},
+		{
+			"name": "level",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "gamemode",
+			"type": "option",
+			"value": [
+				"adventure",
+				"creative",
+				"spectator",
+				"survival"
+			],
+			"negatable": true
+		},
+		{
+			"name": "x_rotation",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "y_rotation",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "type",
+			"type": "entity-with-tag",
+			"value": "entity",
+			"negatable": true
+		},
+		{
+			"name": "nbt",
+			"type": "nbt",
+			"value": "nbt",
+			"negatable": true
+		},
+		{
+			"name": "x",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "y",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "z",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "distance",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "dx",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "dy",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "dz",
+			"type": "string",
+			"value": "value",
+			"negatable": false
+		},
+		{
+			"name": "scores",
+			"type": "nbt",
+			"value": "scores",
+			"negatable": false
+		},
+		{
+			"name": "tag",
+			"type": "string",
+			"value": "name",
+			"negatable": true
+		},
+		{
+			"name": "advancements",
+			"type": "nbt",
+			"value": "advancements",
+			"negatable": false
+		},
+		{
+			"name": "name",
+			"type": "string",
+			"value": "name",
+			"negatable": true
+		},
+		{
+			"name": "predicate",
+			"type": "string",
+			"value": "value",
+			"negatable": true
+		},
+		{
+			"name": "team",
+			"type": "string",
+			"value": "name",
+			"negatable": true
+		}
+	]
+}
