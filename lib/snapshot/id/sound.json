@@ -964,5 +964,11 @@
 "minecraft:block.chain.fall",
 "minecraft:block.chain.step",
 "minecraft:block.chain.place",
-"minecraft:entity.fox.teleport"
+"minecraft:entity.fox.teleport",
+"minecraft:entity.piglin_brute.ambient",
+"minecraft:entity.piglin_brute.angry",
+"minecraft:entity.piglin_brute.converted_to_zombified",
+"minecraft:entity.piglin_brute.death",
+"minecraft:entity.piglin_brute.hurt",
+"minecraft:entity.piglin_brute.step"
 ]
