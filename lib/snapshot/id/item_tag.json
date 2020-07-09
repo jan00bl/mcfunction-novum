@@ -16,7 +16,6 @@
 "#minecraft:fences",
 "#minecraft:fishes",
 "#minecraft:flowers",
-"#minecraft:furnace_materials‌",
 "#minecraft:gold_ores‌",
 "#minecraft:jungle_logs",
 "#minecraft:leaves",
@@ -52,5 +51,6 @@
 "#minecraft:wooden_trapdoors",
 "#minecraft:wool",
 "#minecraft:creeper_drop_music_discs",
-"#minecraft:piglin_loved"
+"#minecraft:piglin_loved",
+"#minecraft:stone_crafting_materials"
 ]
