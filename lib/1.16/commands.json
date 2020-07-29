@@ -827,6 +827,48 @@
 				}
 			]
 		},
+		"forceload": {
+			"name": "forceload",
+			"cycleMarkers": [
+				{
+					"type": "option",
+					"value": [
+						"add",
+						"remove",
+						"query"
+					],
+					"change": {
+						"remove": [
+							{
+								"type": "2-coord",
+								"value": "x z",
+								"stop": [
+									"all"
+								],
+								"change": {
+									"all": [
+										{
+											"type": "end"
+										}
+									]
+								}
+							}
+						],
+						"add" : [
+							{
+								"type": "2-coord",
+								"value": "x z"
+							}
+						]
+					}
+				},
+				{
+					"type": "2-coord",
+					"value": "x z",
+					"optional": true
+				}
+			]
+		},
 		"function": {
 			"name": "function",
 			"cycleMarkers": [
