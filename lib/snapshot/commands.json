@@ -2169,7 +2169,7 @@
 					"type": "option",
 					"value": [
 						"add",
-						"2-coord",
+						"center",
 						"damage",
 						"get",
 						"set",
@@ -2189,7 +2189,7 @@
 								"type": "end"
 							}
 						],
-						"2-coord": [
+						"center": [
 							{
 								"type": "2-coord",
 								"value": "x z"

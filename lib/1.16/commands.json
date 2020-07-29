@@ -1655,7 +1655,7 @@
 			"name": "spreadplayers",
 			"cycleMarkers": [
 				{
-					"type": "center",
+					"type": "2-coord",
 					"value": "x z"
 				},
 				{
@@ -2181,7 +2181,7 @@
 						],
 						"center": [
 							{
-								"type": "center",
+								"type": "2-coord",
 								"value": "x z"
 							},
 							{
