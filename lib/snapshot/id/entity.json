@@ -1,5 +1,6 @@
 [
 "minecraft:blaze",
+"minecraft:bee",
 "minecraft:cave_spider",
 "minecraft:creeper",
 "minecraft:drowned",
@@ -30,7 +31,6 @@
 "minecraft:wither",
 "minecraft:wither_skeleton",
 "minecraft:zombie",
-"minecraft:zombie_pigman",
 "minecraft:zombie_villager",
 "minecraft:bat",
 "minecraft:cat",
