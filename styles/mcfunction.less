@@ -33,19 +33,52 @@
 @import "ui-variables";
 @import (optional) "index.less";
 
+
 .icon {
 	&.command {
 		color: @syntax-color-keyword;
-		background: fadeout(@syntax-color-keyword, 80%);
+		background: fadeout(@syntax-color-keyword, 60%);
 	}
 	&.normal {
 		color: @background-color-selected;
-		background: fadeout(@background-color-selected, 80%);
-	}
-	&.img-background {
-		background-color: fadeout(@background-color-selected, 80%);
+		background: fadeout(@background-color-selected, 60%);
 	}
 }
+
+.icon-wrapper {
+	height: 100%;
+	width: 100%;
+	color: @background-color-selected;
+	background: fadeout(@background-color-selected, 60%);
+}
+
+.icon-svg {
+	position: relative;
+	top: 0.3em;
+	>.fill {
+		fill: @background-color-selected;
+		stroke: @background-color-selected;
+	}
+	>path {
+		stroke: @background-color-selected;
+	}
+	>circle {
+		stroke: @background-color-selected;
+	}
+	>rect {
+		stroke: @background-color-selected;
+	}
+	> * {
+		>.fill {
+			fill: @background-color-selected;
+			stroke: @background-color-selected;
+		}
+		>path {
+			stroke: @background-color-selected;
+		}
+	}
+}
+
 
 .syntax--source.syntax--mcfunction {
 

@@ -1,25 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1"
-	 id="svg8" inkscape:version="0.92.2 (5c3e80d, 2017-08-06)" sodipodi:docname="block.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400"
-	 style="enable-background:new 0 0 400 400;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<path class="st0" d="M-2194.4,395.8c-78.8-166,97.6-289.6,211.9-189.4c101.1,115.3-34.6,248.6-128.2,170
-	c-72.1-63,3.6-170.2,73.7-117.8c51.8,55.5-35.2,91.5-30.3,49.2"/>
-<rect x="-1113.7" y="-208.7" class="st0" width="156.8" height="156.8"/>
-<g>
-	<rect x="1211.1" y="623" class="st0" width="122.4" height="111.9"/>
-	<polygon class="st0" points="1426.9,784.9 1333.5,734.9 1333.5,623 1426.9,573 	"/>
-	<path class="st1" d="M1465.6,740.8c15-16.3,24.1-38,24.1-61.9c0-23.9-9.1-45.6-24.1-61.9"/>
-	<path class="st1" d="M1503.9,769c20.7-24.2,33.2-55.7,33.2-90.1c0-34.4-12.5-65.8-33.2-90.1"/>
-</g>
-<circle class="st1" cx="176" cy="282.4" r="69.1"/>
-<circle class="st1" cx="92.7" cy="148.7" r="36.5"/>
-<circle class="st1" cx="235.2" cy="148.7" r="17.2"/>
-<circle class="st1" cx="314" cy="84.7" r="25.7"/>
-<circle class="st1" cx="310.3" cy="209.6" r="3.7"/>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M176 351.5C214.163 351.5 245.1 320.563 245.1 282.4C245.1 244.237 214.163 213.3 176 213.3C137.837 213.3 106.9 244.237 106.9 282.4C106.9 320.563 137.837 351.5 176 351.5Z" stroke="black" stroke-width="20" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M92.7 185.2C112.858 185.2 129.2 168.858 129.2 148.7C129.2 128.542 112.858 112.2 92.7 112.2C72.5416 112.2 56.2 128.542 56.2 148.7C56.2 168.858 72.5416 185.2 92.7 185.2Z" stroke="black" stroke-width="20" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M235.2 165.9C244.699 165.9 252.4 158.199 252.4 148.7C252.4 139.201 244.699 131.5 235.2 131.5C225.701 131.5 218 139.201 218 148.7C218 158.199 225.701 165.9 235.2 165.9Z" stroke="black" stroke-width="20" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M314 110.4C328.194 110.4 339.7 98.8937 339.7 84.7C339.7 70.5063 328.194 59 314 59C299.806 59 288.3 70.5063 288.3 84.7C288.3 98.8937 299.806 110.4 314 110.4Z" stroke="black" stroke-width="20" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M310.3 213.3C312.343 213.3 314 211.643 314 209.6C314 207.557 312.343 205.9 310.3 205.9C308.257 205.9 306.6 207.557 306.6 209.6C306.6 211.643 308.257 213.3 310.3 213.3Z" stroke="black" stroke-width="20" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -1,20 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1"
-	 id="svg8" inkscape:version="0.92.2 (5c3e80d, 2017-08-06)" sodipodi:docname="block.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400"
-	 style="enable-background:new 0 0 400 400;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<path class="st0" d="M-2194.4,395.8c-78.8-166,97.6-289.6,211.9-189.4c101.1,115.3-34.6,248.6-128.2,170
-	c-72.1-63,3.6-170.2,73.7-117.8c51.8,55.5-35.2,91.5-30.3,49.2"/>
-<rect x="-1113.7" y="-208.7" class="st0" width="156.8" height="156.8"/>
-<g>
-	<rect x="37" y="144.1" class="st0" width="122.4" height="111.9"/>
-	<polygon class="st0" points="252.8,305.9 159.4,255.9 159.4,144.1 252.8,94.1 	"/>
-	<path class="st1" d="M291.5,261.9c15-16.3,24.1-38,24.1-61.9c0-23.8-9.1-45.6-24.1-61.9"/>
-	<path class="st1" d="M329.8,290.1c20.7-24.2,33.2-55.7,33.2-90.1c0-34.4-12.5-65.8-33.2-90.1"/>
-</g>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M143 143.9H53V255.9H143V143.9Z" stroke="black" stroke-width="30" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M236.8 305.8L143.4 255.8V144L236.8 94V305.8Z" stroke="black" stroke-width="30" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M275.5 261.8C290.5 245.5 299.6 223.8 299.6 199.9C299.6 176.1 290.5 154.3 275.5 138" stroke="black" stroke-width="20" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M313.8 290C334.5 265.8 347 234.3 347 199.9C347 165.5 334.5 134.1 313.8 109.8" stroke="black" stroke-width="20" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
