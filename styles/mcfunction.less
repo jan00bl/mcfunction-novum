@@ -3,6 +3,8 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 
+@mcfunction-novum-icon-color: #009688;
+
 .syntax--string {
 	color: @syntax-color-snippet;
 }
@@ -34,47 +36,60 @@
 @import (optional) "index.less";
 
 
-.icon {
+i.icon {
+	display: block !important;
 	&.command {
 		color: @syntax-color-keyword;
-		background: fadeout(@syntax-color-keyword, 60%);
+		background: fadeout(@syntax-color-keyword, 80%);
 	}
 	&.normal {
-		color: @background-color-selected;
-		background: fadeout(@background-color-selected, 60%);
+		color: @mcfunction-novum-icon-color;
+		background: fadeout(@mcfunction-novum-icon-color, 80%);
 	}
 }
 
 .icon-wrapper {
-	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2em;
 	width: 100%;
-	color: @background-color-selected;
-	background: fadeout(@background-color-selected, 60%);
+	color: @mcfunction-novum-icon-color;
+	background: fadeout(@mcfunction-novum-icon-color, 80%);
+
+	&.command {
+		background: fadeout(@background-color-selected, 80%);
+	}
 }
 
 .icon-svg {
-	position: relative;
-	top: 0.3em;
+
+	&.command {
+		>line {
+			stroke: @syntax-color-keyword;
+		}
+	}
+
 	>.fill {
-		fill: @background-color-selected;
-		stroke: @background-color-selected;
+		fill: @mcfunction-novum-icon-color;
+		stroke: @mcfunction-novum-icon-color;
 	}
 	>path {
-		stroke: @background-color-selected;
+		stroke: @mcfunction-novum-icon-color;
 	}
 	>circle {
-		stroke: @background-color-selected;
+		stroke: @mcfunction-novum-icon-color;
 	}
 	>rect {
-		stroke: @background-color-selected;
+		stroke: @mcfunction-novum-icon-color;
 	}
 	> * {
 		>.fill {
-			fill: @background-color-selected;
-			stroke: @background-color-selected;
+			fill: @mcfunction-novum-icon-color;
+			stroke: @mcfunction-novum-icon-color;
 		}
 		>path {
-			stroke: @background-color-selected;
+			stroke: @mcfunction-novum-icon-color;
 		}
 	}
 }
