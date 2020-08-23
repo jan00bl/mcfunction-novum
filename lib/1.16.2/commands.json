@@ -1620,6 +1620,11 @@
 				{
 					"type": "coord",
 					"value": "x y z"
+				},
+				{
+					"type": "string",
+					"value": "angle",
+					"optional": true
 				}
 			]
 		},
@@ -1634,6 +1639,11 @@
 				{
 					"type": "coord",
 					"value": "x y z",
+					"optional": true
+				},
+				{
+					"type": "string",
+					"value": "angle",
 					"optional": true
 				}
 			]

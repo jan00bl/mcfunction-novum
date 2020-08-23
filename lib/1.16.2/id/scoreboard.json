@@ -21,6 +21,7 @@
     "sidebar.team.yellow"
    ],
    "objectives": [
+     "dummy",
      "trigger",
      "deathCount",
      "playerKillCount",
