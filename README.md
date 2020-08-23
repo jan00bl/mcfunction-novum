@@ -7,7 +7,7 @@ This is a fork of https://github.com/Yurihaia/mcfunction. I have not created the
 - Syntax highlighting
 - Autocomplete for commands and selectors
   - Working autocomplete for irregular particles (minecraft:block, minecraft:dust, minecraft:item)
-- Version switching (starting from 1.16)
+- Version switching (starting from 1.16.2)
 - Actively updated lists for:
   - Advancements
   - Blocks
