@@ -1253,7 +1253,7 @@
 			]
 		},
 		"replaceitem": {
-			"name": "replaceitem",
+			"name": "item",
 			"cycleMarkers": [
 				{
 					"type": "option",
@@ -1281,12 +1281,57 @@
 					"value": "slot"
 				},
 				{
-					"type": "item",
-					"value": "item"
-				},
-				{
-					"type": "string",
-					"value": "count"
+					"type": "option",
+					"value": [
+						"replace",
+						"modify",
+						"copy"
+					],
+					"change": {
+						"replace": [
+							{
+								"type": "item",
+								"value": "item"
+							},
+							{
+								"type": "string",
+								"value": "count"
+							}
+						],
+						"modify": [
+							{
+								"type": "string",
+								"value": "modifier"
+							}
+						],
+						"copy": [
+							{
+								"type": "option",
+								"value": [
+									"entity",
+									"block"
+								],
+								"change": {
+									"entity": [
+										{
+											"type": "entity",
+											"value": "targets"
+										}
+									],
+									"block": [
+										{
+											"type": "coord",
+											"value": "x y z"
+										}
+									]
+								}
+							},
+							{
+								"type": "string",
+								"value": "modifier"
+							}
+						]
+					}
 				}
 			]
 		},

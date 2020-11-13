@@ -34,5 +34,12 @@
     "+ minecraft:block.copper.place",
     "+ minecraft:block.copper.step",
     "+ minecraft:item.spyglass.stop_using",
-    "+ minecraft:item.spyglass.use"
+    "+ minecraft:item.spyglass.use",
+    "+ minecraft:item.bucket.empty_powder_snow",
+    "+ minecraft:item.bucket.fill_powder_snow",
+    "+ minecraft:block.powder_snow.break",
+    "+ minecraft:block.powder_snow.fall",
+    "+ minecraft:block.powder_snow.hit",
+    "+ minecraft:block.powder_snow.place",
+    "+ minecraft:block.powder_snow.step"
 ]

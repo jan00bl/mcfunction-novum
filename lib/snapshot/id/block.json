@@ -73,5 +73,7 @@
     "+ minecraft:tuff",
     "+ minecraft:water_cauldron",
     "+ minecraft:lava_cauldron",
-    "~ minecraft:grass_path minecraft:dirt_path"
+    "~ minecraft:grass_path minecraft:dirt_path",
+    "+ minecraft:powder_snow",
+    "+ minecraft:powder_snow_cauldron"
 ]
