@@ -1252,7 +1252,7 @@
 				}
 			]
 		},
-		"replaceitem": {
+		"item": {
 			"name": "item",
 			"cycleMarkers": [
 				{
@@ -2340,7 +2340,8 @@
 						"type": "option",
 						"value": [
 							"entity",
-							"block"
+							"block",
+							"storage"
 						],
 						"change": {
 							"entity": [
@@ -2353,6 +2354,12 @@
 								{
 									"type": "coord",
 									"value": "x y z"
+								}
+							],
+							"storage": [
+								{
+									"type": "string",
+									"value": "path"
 								}
 							]
 						}
