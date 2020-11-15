@@ -1104,7 +1104,7 @@
 					"value": "x y z"
 				},
 				{
-					"type": "item",
+					"type": "item-with-hands",
 					"value": "item"
 				}
 			]
