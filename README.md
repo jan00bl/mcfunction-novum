@@ -20,3 +20,11 @@ This is a fork of https://github.com/Yurihaia/mcfunction. I have not created the
   - Recipes
   - Scoreboard objectives
   - Sounds
+
+## Common "Issues"
+### The syntax highlighting stops working in long commands (especially tellraw)
+This behaviour is not a bug. It is a result of atom's token limit. You can increase the token limit with this [pack](https://atom.io/packages/grammar-token-limit).\
+But keep in mind increasing the token limit can impact performance.
+
+### The /replaceitem command is not working correctly
+That's because in 1.17 the /replaceitem command was replaced with the /item command. But you can change the version to 1.16 in the package settings in order to use the /replaceitem command again.
