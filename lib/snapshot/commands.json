@@ -691,6 +691,10 @@
 								"value": "targets"
 							},
 							{
+								"type": "effect",
+								"value": "effect"
+							},
+							{
 								"type": "end"
 							}
 						]
