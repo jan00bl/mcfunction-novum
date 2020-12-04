@@ -28,7 +28,9 @@
       }
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "atom": "^1.4.1"
+  },
   "devDependencies": {
     "mocha": "^8.1.0"
   }
