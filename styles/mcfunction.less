@@ -3,7 +3,6 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 
-@mcfunction-novum-icon-color: #009688;
 
 .syntax--string {
 	color: @syntax-color-snippet;
@@ -42,21 +41,9 @@ i.icon {
 		color: @syntax-color-keyword;
 		background: fadeout(@syntax-color-keyword, 80%);
 	}
-	&.normal {
-		color: @mcfunction-novum-icon-color;
-		background: fadeout(@mcfunction-novum-icon-color, 80%);
-	}
 }
 
 .icon-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 2em;
-	width: 100%;
-	color: @mcfunction-novum-icon-color;
-	background: fadeout(@mcfunction-novum-icon-color, 80%);
-
 	&.command {
 		background: fadeout(@syntax-color-keyword, 80%) !important;
 	}
@@ -67,29 +54,6 @@ i.icon {
 	&.command {
 		>line {
 			stroke: @syntax-color-keyword;
-		}
-	}
-
-	>.fill {
-		fill: @mcfunction-novum-icon-color;
-		stroke: @mcfunction-novum-icon-color;
-	}
-	>path {
-		stroke: @mcfunction-novum-icon-color;
-	}
-	>circle {
-		stroke: @mcfunction-novum-icon-color;
-	}
-	>rect {
-		stroke: @mcfunction-novum-icon-color;
-	}
-	> * {
-		>.fill {
-			fill: @mcfunction-novum-icon-color;
-			stroke: @mcfunction-novum-icon-color;
-		}
-		>path {
-			stroke: @mcfunction-novum-icon-color;
 		}
 	}
 }

@@ -1,0 +1,43 @@
+:root {
+	--mcfunction-novum-icon-red: 0;
+	--mcfunction-novum-icon-green: 100;
+	--mcfunction-novum-icon-blue: 200;
+    --mcfunction-novum-icon-color: rgba(var(--mcfunction-novum-icon-red),var(--mcfunction-novum-icon-green),var(--mcfunction-novum-icon-blue),1);
+    --mcfunction-novum-icon-background-color: rgba(var(--mcfunction-novum-icon-red),var(--mcfunction-novum-icon-green),var(--mcfunction-novum-icon-blue),0.2);
+}
+
+i.icon.normal {
+	color: var(--mcfunction-novum-icon-color);
+	background: var(--mcfunction-novum-icon-background-color);
+}
+
+.icon-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2em;
+	width: 100%;
+	color: var(--mcfunction-novum-icon-color);
+	background: var(--mcfunction-novum-icon-background-color);
+}
+
+.icon-svg > .fill {
+    fill: var(--mcfunction-novum-icon-color);
+	stroke: var(--mcfunction-novum-icon-color);
+}
+
+.icon-svg > path,circle,rect {
+
+	stroke: var(--mcfunction-novum-icon-color);
+}
+
+.icon-svg > * > .fill {
+    fill: var(--mcfunction-novum-icon-color);
+    stroke: var(--mcfunction-novum-icon-color);
+}
+
+.icon-svg > * > path {
+
+	stroke: var(--mcfunction-novum-icon-color);
+
+}
