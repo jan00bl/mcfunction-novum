@@ -3,13 +3,20 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 
+:root {
+	--mcfunction-novum-comment: inherit;
+	--mcfunction-novum-comment-out: average(@base-background-color,@syntax-color-keyword);
+	--mcfunction-novum-deactivated: inherit;
+}
 
 .syntax--string {
 	color: @syntax-color-snippet;
 }
 
 .syntax--comment {
-	color: @text-color-subtle;
+	.syntax--command-start {
+		color: var(--mcfunction-novum-deactivated) !important;
+	}
 }
 
 .syntax--number {
@@ -27,9 +34,7 @@
 .syntax--execute{
 	color: lighten(@syntax-color-keyword, 15%, relative);
 }
-.syntax--deactivated{
-	color: average(@base-background-color,@syntax-color-keyword);
-}
+
 
 @import "ui-variables";
 @import (optional) "index.less";

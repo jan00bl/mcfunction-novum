@@ -57,12 +57,19 @@
 			"name": "command"
 		},
 		{
-			"match": "^##.*",
-			"name": "deactivated"
-		},
-		{
 			"match": "^#.*",
-			"name": "comment"
+			"name": "comment",
+
+			"captures": {
+				"0": {
+					"patterns": [
+						{
+							"match": "^#?(advancement|attribute|bossbar|clear|clone|data|datapack|defaultgamemode|difficulty|effect|enchant|execute|experience|fill|forceload|function|gamemode|gamerule|give|kill|locate|locatebiome|loot|me|msg|particle|playsound|recipe|reload|replaceitem|say|schedule|scoreboard|tag|team|seed|setblock|setworldspawn|spreadplayers|stopsound|summon|teleport|tellraw|tell|time|title|tp|trigger|w|weather|worldborder|xp|spawnpoint|spectate|item).*",
+							"name": "command-start"
+						}
+					]
+				}
+			}
 		},
 		{
 			"match": "(?: (?:[~\\^]-?(?:\\d*\\.)?\\d*|-?(?:\\d*\\.)?\\d+)){3}",
