@@ -1,5 +1,7 @@
 [
     "+ minecraft:ignored_by_piglin_babies",
     "+ minecraft:piglin_food",
-    "+ minecraft:freeze_immune_wearables"
+    "+ minecraft:freeze_immune_wearables",
+    "+ minecraft:axolotl_tempt_items",
+    "+ minecraft:occludes_vibration_signals"
 ]

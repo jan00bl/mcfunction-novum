@@ -1,3 +1,4 @@
 [
-    "+ freezeDamage"
+    "+ freezeDamage",
+    "+ playersSleepingPercentage"
 ]

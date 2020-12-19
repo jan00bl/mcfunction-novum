@@ -1,3 +1,5 @@
 [
-    "+ minecraft:powder_snow_walkable_mobs"
+    "+ minecraft:powder_snow_walkable_mobs",
+    "+ minecraft:axolotl_always_hostiles",
+    "+ minecraft:axolotl_tempted_hostiles"
 ]

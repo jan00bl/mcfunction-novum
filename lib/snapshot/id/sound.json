@@ -63,5 +63,14 @@
     "+ minecraft:block.sculk_sensor.fall",
     "+ minecraft:block.sculk_sensor.hit",
     "+ minecraft:block.sculk_sensor.place",
-    "+ minecraft:block.sculk_sensor.step"
+    "+ minecraft:block.sculk_sensor.step",
+    "+ minecraft:entity.axolotl.attack",
+    "+ minecraft:entity.axolotl.death",
+    "+ minecraft:entity.axolotl.hurt",
+    "+ minecraft:entity.axolotl.idle_air",
+    "+ minecraft:entity.axolotl.idle_water",
+    "+ minecraft:entity.axolotl.splash",
+    "+ minecraft:entity.axolotl.swim",
+    "+ minecraft:item.bucket.empty_axolotl",
+    "+ minecraft:item.bucket.fill_axolotl"
 ]
