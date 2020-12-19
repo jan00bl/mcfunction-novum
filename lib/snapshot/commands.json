@@ -1153,12 +1153,55 @@
 						],
 						"minecraft:dust": [
 							{
-								"type": "coord",
-								"value": "R G B"
+								"type": "3-number",
+								"value": {
+									"value": "RGB",
+									"icon": "color.svg"
+								}
 							},
 							{
 								"type": "string",
 								"value": "Alpha"
+							}
+						],
+						"minecraft:vibration": [
+							{
+								"type": "3-number",
+								"value": {
+									"value": "from",
+									"icon": "coords.svg"
+								}
+							},
+							{
+								"type": "3-number",
+								"value": {
+									"value": "to",
+									"icon": "coords.svg"
+								}
+							},
+							{
+								"type": "string",
+								"value": "velocity"
+							}
+						],
+						"minecraft:dust_color_transition": [
+							{
+								"type": "3-number",
+								"value": {
+									"value": "from RGB",
+									"icon": "color.svg"
+								}
+							},
+							{
+								"type": "3-number",
+								"value": {
+									"value": "to RGB",
+									"icon": "color.svg"
+								}
+							},
+							{
+								"type": "string",
+								"value": "scale"
 							}
 						]
 					}
@@ -1168,8 +1211,11 @@
 					"value": "x y z"
 				},
 				{
-					"type": "coord",
-					"value": "dx dy dz"
+					"type": "3-number",
+					"value": {
+						"value": "dx dy dz",
+						"icon": "coords.svg"
+					}
 				},
 				{
 					"type": "string",

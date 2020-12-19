@@ -56,5 +56,12 @@
     "+ minecraft:block.pointed_dripstone.hit",
     "+ minecraft:block.pointed_dripstone.land",
     "+ minecraft:block.pointed_dripstone.place",
-    "+ minecraft:block.pointed_dripstone.step"
+    "+ minecraft:block.pointed_dripstone.step",
+    "+ minecraft:block.sculk_sensor.break",
+    "+ minecraft:block.sculk_sensor.clicking",
+    "+ minecraft:block.sculk_sensor.clicking_stop",
+    "+ minecraft:block.sculk_sensor.fall",
+    "+ minecraft:block.sculk_sensor.hit",
+    "+ minecraft:block.sculk_sensor.place",
+    "+ minecraft:block.sculk_sensor.step"
 ]

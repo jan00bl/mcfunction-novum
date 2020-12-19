@@ -3,5 +3,7 @@
     "+ minecraft:candles",
     "+ minecraft:cauldrons",
     "+ minecraft:crystal_sound_blocks",
-    "+ minecraft:inside_step_sound_block"
+    "+ minecraft:inside_step_sound_block",
+    "+ minecraft:dripstone_replaceable_blocks",
+    "+ minecraft:occludes_vibration_signal"
 ]
