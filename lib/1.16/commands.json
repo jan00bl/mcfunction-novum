@@ -877,8 +877,8 @@
 			"name": "function",
 			"cycleMarkers": [
 				{
-					"type": "string",
-					"value": "name"
+					"type": "function",
+					"value": "function"
 				}
 			]
 		},
@@ -1315,7 +1315,7 @@
 					"change": {
 						"clear": [
 							{
-								"type": "string",
+								"type": "function",
 								"value": "function"
 							},
 							{
@@ -1325,8 +1325,8 @@
 					}
 				},
 				{
-					"type": "string",
-					"value": "function name"
+					"type": "function",
+					"value": "function"
 				},
 				{
 					"type": "string",

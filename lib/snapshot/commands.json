@@ -877,8 +877,8 @@
 			"name": "function",
 			"cycleMarkers": [
 				{
-					"type": "string",
-					"value": "name"
+					"type": "function",
+					"value": "function"
 				}
 			]
 		},
@@ -1377,6 +1377,10 @@
 								}
 							},
 							{
+								"type": "slot",
+								"value": "slot"
+							},
+							{
 								"type": "string",
 								"value": "modifier"
 							}
@@ -1406,7 +1410,7 @@
 					"change": {
 						"clear": [
 							{
-								"type": "string",
+								"type": "function",
 								"value": "function"
 							},
 							{
@@ -1416,8 +1420,8 @@
 					}
 				},
 				{
-					"type": "string",
-					"value": "function name"
+					"type": "function",
+					"value": "function"
 				},
 				{
 					"type": "string",
@@ -2458,8 +2462,8 @@
 				],
 				"predicate": [
 					{
-						"type": "string",
-						"value": "name"
+						"type": "predicate",
+						"value": "predicate"
 					}
 				],
 				"score": [
