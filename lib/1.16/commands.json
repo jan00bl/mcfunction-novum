@@ -2512,7 +2512,11 @@
 				"facing": [
 					{
 						"type": "option",
-						"value": ["entity"]
+						"value": ["entity"],
+						"value": [
+							"eyes",
+							"feet"
+						]
 					},
 					{
 						"type": "entity",
