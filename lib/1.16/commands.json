@@ -2554,7 +2554,9 @@
 				"positioned": [
 					{
 						"type": "coord",
-						"value": "x y z"
+						"value": "x y z",
+						"type": "as",
+						"value": "target"
 					},
 					{
 						"include": "execute"
