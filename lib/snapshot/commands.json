@@ -2670,7 +2670,18 @@
 				"positioned": [
 					{
 						"type": "coord",
-						"value": "x y z"
+						"value": "x y z",
+						"stop": [
+							"as"
+						],
+						"change": {
+							"as": [
+								{
+									"type": "entity",
+									"value": "targets"
+								}
+							]
+						}
 					},
 					{
 						"include": "execute"
