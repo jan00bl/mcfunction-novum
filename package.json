@@ -21,6 +21,11 @@
   "engines": {
     "atom": "*"
   },
+  "scripts": {
+    "publish-major": "apm publish major",
+    "publish-minor": "apm publish minor",
+    "publish-patch": "apm publish patch"
+  },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
