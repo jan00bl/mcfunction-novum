@@ -1193,15 +1193,15 @@
 								}
 							},
 							{
+								"type": "string",
+								"value": "scale"
+							},
+							{
 								"type": "3-number",
 								"value": {
 									"value": "to RGB",
 									"icon": "color.svg"
 								}
-							},
-							{
-								"type": "string",
-								"value": "scale"
 							}
 						]
 					}
