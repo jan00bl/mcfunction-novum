@@ -2613,12 +2613,26 @@
 				],
 				"facing": [
 					{
-						"type": "option",
-						"value": ["entity"]
-					},
-					{
-						"type": "entity",
-						"value": "targets"
+						"type": "coord",
+						"value": "x y z",
+						"stop": [
+							"entity"
+						],
+						"change": {
+							"entity": [
+								{
+									"type": "entity",
+									"value": "targets"
+								},
+								{
+									"type": "option",
+									"value": [
+										"eyes",
+										"feet"
+									]
+								}
+							]
+						}
 					},
 					{
 						"include": "execute"
