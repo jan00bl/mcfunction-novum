@@ -2299,13 +2299,20 @@
 						"type": "option",
 						"value": [
 							"entity",
-							"block"
+							"block",
+							"storage"
 						],
 						"change": {
 							"entity": [
 								{
 									"type": "entity",
 									"value": "targets"
+								}
+							],
+							"storage": [
+								{
+									"type": "storage",
+									"value": "Path"
 								}
 							],
 							"block": [
