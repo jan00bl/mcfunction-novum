@@ -1980,7 +1980,10 @@
 			"cycleMarkers": [
 				{
 					"type": "entity",
-					"value": "targets"
+					"value": "targets",
+					"coordinate": "x y z",
+					"coordinate": "~ ~ ~",
+					"coordinate": "^ ^ ^"
 				},
 				{
 					"type": "coord",
@@ -1988,11 +1991,12 @@
 				},
 				{
 					"type": "option",
-					"value": ["facing"]
+					"value": ["facing"],
 				},
 				{
 					"type": "option",
-					"value": ["entity"]
+					"value": ["entity"],
+					"anchor" {"eyes","feet"}
 				},
 				{
 					"type": "entity",
