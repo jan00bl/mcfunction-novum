@@ -2360,8 +2360,8 @@
 				],
 				"predicate": [
 					{
-						"type": "string",
-						"value": "name"
+						"type": "predicate",
+						"value": "predicate"
 					}
 				],
 				"score": [

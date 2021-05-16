@@ -133,8 +133,8 @@
 		},
 		{
 			"name": "predicate",
-			"type": "string",
-			"value": "value",
+			"type": "predicate",
+			"value": "predicate",
 			"negatable": true
 		},
 		{
